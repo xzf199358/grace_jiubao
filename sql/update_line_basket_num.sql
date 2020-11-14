@@ -1,0 +1,2 @@
+update layer1_agv.io_state set io_value_int4_1 = {io_value_int4_1},io_value_int4_2 = {io_value_int4_2},last_updated_user = 'GuoZi-SL',last_updated_timestamp = now()
+where io_id = {io_id} returning io_id;
